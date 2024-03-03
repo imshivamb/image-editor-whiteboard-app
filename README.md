@@ -40,7 +40,7 @@ Welcome to the Whiteboard/Image Editor repository! This project aims to provide 
 3. **Importing Images**: Use the "Import Image" option to import images onto the canvas.
 4. **Editing**: Use the editing tools to modify and enhance your drawings and images.
 5. **Collaboration**: Share the URL of the canvas with others to collaborate in real-time.
-6. **Exporting**: Export your creations in various formats such as PNG, JPEG, or SVG.
+6. **Exporting**: Export your creations in formats such as PNG.
 
 ## Contributing
 
