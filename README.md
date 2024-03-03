@@ -54,6 +54,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 6. Create a new Pull Request.
 
 
----
 
-Feel free to customize this README to fit your specific project details and requirements. Good luck with your whiteboard/image editor project! If you have any further questions or need assistance, feel free to ask.
