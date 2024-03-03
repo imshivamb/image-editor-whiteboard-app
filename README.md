@@ -22,7 +22,7 @@ Welcome to the Whiteboard/Image Editor repository! This project aims to provide 
 
 2. Install dependencies:
    ```
-   cd whiteboard-image-editor
+   cd image-editor-whiteboard-app
    npm install
    ```
 
