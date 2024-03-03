@@ -1,4 +1,4 @@
-Certainly! Here's a simple README template for your GitHub repository for a whiteboard/image editor:
+
 
 ---
 
