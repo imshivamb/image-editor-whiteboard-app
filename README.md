@@ -9,7 +9,7 @@ Welcome to the Whiteboard/Image Editor repository! This project aims to provide 
 ## Features
 
 - **Drawing Tools**: Choose from a variety of drawing tools such as pencil, brush, shapes, and text to create your masterpiece.
-- **Image Editing**: Import images and apply various editing features like cropping, resizing, filters, and more.
+- **Image Editing**: Import images and apply various editing features like cropping, resizing, and more.
 - **Real-time Collaboration**: Collaborate with others in real-time, allowing multiple users to work on the same canvas simultaneously.
 - **Export and Sharing**: Save your creations in various formats and easily share them with others.
 
