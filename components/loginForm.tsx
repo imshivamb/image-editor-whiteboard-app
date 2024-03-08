@@ -1,14 +1,11 @@
 "use client";
+import { loginSchema } from "@/utils/schema";
+import { Key, Mail } from "lucide-react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { ZodError } from "zod";
-import { loginSchema } from "@/utils/schema";
-import Button from "./button";
-import { Mail, Key } from "lucide-react";
-import { useRouter } from "next/navigation";
-import Link from "next/link";
 import MainButton from "./button";
-
-
 
 const LoginForm: React.FC = () => {
   const router = useRouter();
@@ -20,17 +17,17 @@ const LoginForm: React.FC = () => {
     e.preventDefault();
 
     try {
-      // Validate the form data using the Zod schema
+      // Validating the form data using the Zod schema
       loginSchema.parse({ email, password });
 
-      // If validation passes, you can proceed with login logic here
+      // If validation passes, proceed with login logic here
       console.log("Login successful!");
       router.push("/editor");
       // Clear errors if any
       setErrors({});
     } catch (error) {
       if (error instanceof ZodError) {
-        // Handle the validation error by updating the state with error messages
+        // Handling the validation error by updating the state with error messages
         const errorMessages: Record<string, string> = {};
         error.errors.forEach((err) => {
           if (err.path) {

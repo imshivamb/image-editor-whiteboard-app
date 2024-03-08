@@ -7,8 +7,7 @@ import Room from "./Room";
 
 export const metadata = {
   title: "Image Editor",
-  description:
-    "A minimal Image editor with ",
+  description: "A minimal Image editor ",
 };
 
 const outfit = Outfit({
